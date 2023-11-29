@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        es_version: [ 8.6.1, 8.9.2 ]
+        es_version: [ 7.17.15, 8.10.4 ]
     steps:
       - name: Checkout project sources
         uses: actions/checkout@v2
